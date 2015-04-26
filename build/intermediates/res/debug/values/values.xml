@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundAngleImageView"><attr format="dimension" name="roundWidth"/><attr format="dimension" name="roundHeight"/></declare-styleable>
+    <!-- From: file:/data/www/android/SukiMarket/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="bottom_tab_font_size">10.0dip</dimen>
+    <dimen name="bottom_tab_layout_marginTop">2.0dip</dimen>
+    <dimen name="bottom_tab_padding_drawable">2.0dip</dimen>
+    <dimen name="bottom_tab_padding_left">2.0dip </dimen>
+    <dimen name="bottom_tab_padding_up">10.0dip </dimen>
+    <dimen name="title_text_size">18.0dip</dimen>
+    <!-- From: file:/data/www/android/SukiMarket/app/src/main/res/values/drawables.xml -->
+    <eat-comment/>
+    <item name="transparent" type="drawable">#00000000</item>
+    <!-- From: file:/data/www/android/SukiMarket/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">SukiMarket</string>
+    <!-- From: file:/data/www/android/SukiMarket/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="main_tab_bottom">
+        <item name="android:textSize">@dimen/bottom_tab_font_size</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/tab_txtcolor</item>
+        <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_marginTop">@dimen/bottom_tab_layout_marginTop</item>
+        <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item>
+        <item name="android:paddingLeft">@dimen/bottom_tab_padding_left</item>
+    </style>
+</resources>
